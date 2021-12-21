@@ -13,7 +13,9 @@
             android:title="EditText Preference"
             android:summary="EditText Summary"
             android:dialogMessage="Dialog Message"
-            android:defaultValue="Default value" />
+            android:defaultValue="Default value"
+            android:dialogLayout="@layout/pref_dialog_edittext_fix"
+            />
         <CheckBoxPreference
         android:key="key3"
         android:title="CheckBox Preference"
