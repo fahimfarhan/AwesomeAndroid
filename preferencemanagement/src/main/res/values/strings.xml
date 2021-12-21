@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PreferenceManagement</string>
+    <string name="omemo_setting_default">default_off</string>
+
+    <string name="always">Always</string>
+    <string name="default_on">On by default</string>
+    <string name="default_off">Off by default</string>
+    <string name="pref_omemo_setting_summary_default_off">Omemo settings summary</string>
+    <string name="pref_omemo_setting">Omemo settings title</string>
 </resources>

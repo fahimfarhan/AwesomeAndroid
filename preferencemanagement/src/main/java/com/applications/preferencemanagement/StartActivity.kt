@@ -23,7 +23,8 @@ class StartActivity : AppCompatActivity() {
             val val1 = pref?.getBoolean("key1", false)
             val val2 = pref?.getString("key2", "")
             val val3 = pref?.getBoolean("key3", false)
-            Log.i(TAG, "$val1, $val2, $val3")
+            val val4 = pref?.getString("omemo", "no-omemo")
+            Log.i(TAG, "$val1, $val2, $val3, $val4")
         }
 
         this.pref = PreferenceManager.getDefaultSharedPreferences(this)

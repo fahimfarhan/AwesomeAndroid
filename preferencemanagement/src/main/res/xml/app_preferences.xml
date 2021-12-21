@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory>
         <SwitchPreferenceCompat
             android:key="key1"
@@ -21,5 +21,15 @@
         android:title="CheckBox Preference"
         android:summary="CheckBox Summary"
         android:defaultValue="true"/>
+
+
+        <ListPreference
+            app:defaultValue="@string/omemo_setting_default"
+            app:entries="@array/omemo_setting_entries"
+            app:entryValues="@array/omemo_setting_entry_values"
+            app:key="omemo"
+            app:summary="@string/pref_omemo_setting_summary_default_off"
+            app:title="@string/pref_omemo_setting"
+            app:iconSpaceReserved="false"/>
     </PreferenceCategory>
 </PreferenceScreen>
