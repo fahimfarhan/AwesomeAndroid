@@ -12,5 +12,20 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+
+        <item name="preferenceTheme">@style/Theme.App.Preferences</item>
+
     </style>
+<!-- below codes are copied from the tutorial -->
+    <!-- this is the theme of tutorial
+    <style name="Theme.App" parent="Theme.AppCompat">
+        <item name="preferenceTheme">@style/Theme.App.Preferences</item>
+    </style>
+    -->
+
+    <style name="Theme.App.Preferences" parent="PreferenceThemeOverlay">
+        <item name="android:textColor">#AAAAAA</item>
+    </style>
+
 </resources>
