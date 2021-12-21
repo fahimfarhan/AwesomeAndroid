@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="preferencemanagement/src/main/res/layout/activity_start.xml" value="0.23125" />
         <entry key="preferencemanagement/src/main/res/layout/pref_dialog_edittext_fix.xml" value="0.271875" />
+        <entry key="preferencemanagement/src/main/res/layout/pref_dialog_time.xml" value="0.1984375" />
         <entry key="preferencemanagement/src/main/res/xml/app_preferences.xml" value="0.2453125" />
       </map>
     </option>
