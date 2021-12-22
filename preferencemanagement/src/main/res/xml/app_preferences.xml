@@ -44,6 +44,9 @@
             android:icon="@drawable/ic_baseline_language_24"
             android:title="@string/language"
             />
-
+<com.applications.preferencemanagement.tutorial4.AwesomeListPreference
+    android:icon="@drawable/ic_baseline_language_24"
+    android:title="AwesomeListPreference"
+    />
     </PreferenceCategory>
 </PreferenceScreen>
