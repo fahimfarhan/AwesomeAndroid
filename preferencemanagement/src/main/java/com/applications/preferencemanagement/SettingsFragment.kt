@@ -1,9 +1,11 @@
 package com.applications.preferencemanagement
 
 import android.os.Bundle
-import androidx.fragment.app.DialogFragment
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
+import com.applications.preferencemanagement.tutorial2.LanguagePreference
+import com.applications.preferencemanagement.tutorial2.LanguagePreferenceDialog
+
 
 class SettingsFragment: PreferenceFragmentCompat() {
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
@@ -11,6 +13,15 @@ class SettingsFragment: PreferenceFragmentCompat() {
     }
 
 
+    override fun onDisplayPreferenceDialog(preference: Preference) {
+        if (preference is LanguagePreference) {         // rounded language dialog
+            LanguagePreferenceDialog.newInstance().show(parentFragmentManager, null)
+        } else {
+            super.onDisplayPreferenceDialog(preference)
+        }
+    }
+
+    /*
     override fun onDisplayPreferenceDialog(preference: Preference) {
         // Try if the preference is one of our custom Preferences
         var dialogFragment: DialogFragment? = null
@@ -33,5 +44,6 @@ class SettingsFragment: PreferenceFragmentCompat() {
             super.onDisplayPreferenceDialog(preference)
         }
     }
+*/
 
 }

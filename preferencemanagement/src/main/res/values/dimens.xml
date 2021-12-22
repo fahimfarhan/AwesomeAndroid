@@ -2,5 +2,6 @@
 <resources>
     <dimen name="default_padding">10dp</dimen>
     <dimen name="alert_def_padding">20dp</dimen>
-<!--    eta kaj kore na :/ -->
+    <dimen name="dialog_radius">10dp</dimen>
+    <!--    eta kaj kore na :/ -->
 </resources>
